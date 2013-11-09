@@ -54,20 +54,17 @@
 	  </div><!-- /.navbar-collapse -->
 	</nav>
   
-    <div class="container-narrow">
+    <div class="container">
 
-      <div class="content">
         {{ content }}
-      </div>
       <hr>
-      <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
-
     </div>
+    <footer>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+        and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a>
+      </p>
+    </footer>
 
     {% include JB/analytics %}
   </body>
