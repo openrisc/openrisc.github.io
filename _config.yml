@@ -8,7 +8,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : Jekyll Bootstrap-3
 tagline: Site Tagline
 author :
   name : Name Lastname
@@ -100,7 +100,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-7715423-15'
     getclicky :
       site_id : 
     mixpanel :
