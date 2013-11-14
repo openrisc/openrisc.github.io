@@ -26,3 +26,7 @@ For original project's usage and documentation please see: <http://jekyllbootstr
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/jekyll-bootstrap-3/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
