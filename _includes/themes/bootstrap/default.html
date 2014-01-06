@@ -58,13 +58,13 @@
 
         {{ content }}
       <hr>
+      <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+          with help from <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap-3</a>
+          and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
     </div>
-    <footer>
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-        with help from <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap-3</a>
-        and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a>
-      </p>
-    </footer>
 
     {% include JB/analytics %}
     <script src="{{ ASSET_PATH }}/resources/jquery/jquery.min.js"></script>
