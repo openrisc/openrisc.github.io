@@ -101,6 +101,9 @@ JB :
     provider : google 
     google : 
         tracking_id : 'UA-***'
+    googleUA :
+        tracking_id : 'UA-***'
+        property_name : 'PROPERTY NAME'
     getclicky :
       site_id : 
     mixpanel :
