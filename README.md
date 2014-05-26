@@ -23,6 +23,11 @@ The quickest way to start and publish your Jekyll powered blog. 100% compatible 
 
 For original project's usage and documentation please see: <http://jekyllbootstrap.com>  
 
+
+### Themes
+
+Quickly install and use lovely themes with Jekyll Bootstrap 3. Visit [theme gallery](http://jekyllbootstrap3.tk/preview/).
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
