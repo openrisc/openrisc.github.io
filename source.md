@@ -2,7 +2,7 @@
 layout: page
 title: Source
 tagline: Get and build OpenRISC tools
-group: navigation
+group:
 ---
 {% include JB/setup %}
 

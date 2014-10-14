@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wishlist
-group: navigation
+group:
 ---
 {% include JB/setup %}
 
