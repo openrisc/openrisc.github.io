@@ -5,49 +5,28 @@ tagline: Project Overview
 ---
 {% include JB/setup %}
 
-The aim of the OpenRISC project is to create free and open source
-computing platforms.
+Welcome to the project overview of the OpenRISC project. The major
+goal of the project it to create free and open computing platforms.
+This includes:
 
-It aims to provide:
+- a free and open RISC instruction set architecture with DSP features
 
--   a free, open source RISC architecture with DSP features
--   a set of free, open source implementations of the architecture
--   a complete set of free, open source software development tools,
-    libraries, operating systems and applications
+- a set of free, open source implementations of the architecture
 
-The OpenRISC 1000 architecture is the first set of specifications for a
-family of 32- and 64-bit RISC/DSP processors. Its open and modular
-architecture allows a spectrum of chip and system implementations at a
-variety of price/performance points for a range of applications.
-Designed with emphasis on performance, simplicity, low power
-consumption, scalability and versatile implementation, it targets medium
-and high performance networking, portable, embedded, and automotive
-applications.
+- a complete set of free, open source software development tools,
+  libraries, operating systems and applications
 
-### Architecture Specification
+The project is driven by a very active community and has a long
+history. This unfortunately lead to scattered and partly outdated
+information. The goal of this page is to provide an overview over
+active parts of the project and the current development to ease the
+enty for newcomers or people seeking basic information. The
+information is collected from the following sites where you can find
+more information (which can be partly outdated):
 
-The latest version of the architecture specification can be
-downloaded [here][] or viewed [online](or1k.html).
+- [The OpenRISC pages at opencores.org](http://opencores.org/or1k/Main_Page)
 
-More information can be found on the [Architecture Specification][]
-page.
+- [openrisc.net](http://www.openrisc.net)
 
-### Licensing
+- [The github projects](https://www.github.com/openrisc)
 
-The architecture specifications are published under the [GNU General
-Public License][] (GPL). The reference implementations in Verilog on
-this website are licensed under the [GNU Lesser General Public License][]
-(LGPL). The reference toolchain and operating systems are published
-under the license of the upstream software, which is typically the GPL,
-but also other open source licenses, such as the Berkeley Software
-Distribution (BSD) license.
-
-Third parties are free to create their own proprietary processor
-implementations. It is also possible to port proprietary software to the
-OpenRISC platform. Use and development of the implementations and
-software provided by the project is encouraged.
-
-  [here]: http://opencores.org/websvn,filedetails?repname=openrisc&path=%2Fopenrisc%2Ftrunk%2Fdocs%2Fopenrisc-arch-1.0-rev0.pdf
-  [Architecture Specification]: Architecture Specification "wikilink"
-  [GNU General Public License]: http://www.gnu.org/licenses/gpl.html
-  [GNU Lesser General Public License]: http://www.gnu.org/licenses/lgpl.html
