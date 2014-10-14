@@ -3,6 +3,7 @@ layout: page
 title: Community
 tagline: Get in touch
 group: navigation
+weight: 8
 ---
 {% include JB/setup %}
 

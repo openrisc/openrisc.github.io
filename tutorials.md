@@ -3,6 +3,7 @@ layout: page
 title: Tutorials
 tagline: Get started
 group: navigation
+weight: 7
 ---
 {% include JB/setup %}
 
