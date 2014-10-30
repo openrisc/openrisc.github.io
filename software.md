@@ -9,11 +9,11 @@ weight: 4
 
 ## Software Toolchains
 
-### <a id="binutils"> GNU Binutils
+### <a id="binutils" /> GNU Binutils
 
-### <a id="gcc"> GNU GCC
+### <a id="gcc" /> GNU GCC
 
-### <a id="llvm"> LLVM
+### <a id="llvm" /> LLVM
 
 ## Baremetal Software
 
