@@ -14,9 +14,10 @@ project.
 
 1.  There is the web based [OpenRISC forum][] by OpenCores.org, which
     has been running since 2008.
-2.  There are mailman mailing lists run by [openrisc.net][],
+2.  ~~There are mailman mailing lists run by [openrisc.net][],
     particularly targeted at Linux for OpenRISC, which have been running
-    since April/May 2011.
+    since April/May 2011.~~ **Note:** Mailing lists at openrisc.net are not
+    available any more. Use openrisc@lists.opencores.org for now until this is sorted out.
 3.  There are mailman mailing lists run by [by OpenCores][], for
     OpenRISC and WishBone, which have been running since June 2011.
 
@@ -24,12 +25,6 @@ The mailing lists are relatively new (first half of 2011). However a
 pattern of usage seems to be emerging, where general users ask their
 questions on the OpenRISC forum, while developers discuss new design
 ideas and post patches on the two OpenRISC mailing lists.
-
-It is recognized that having two versions of the OpenRISC mailing list
-(in addition to the Forum) is a problem. Efforts are under way to try to
-merge into a single list (not just a technical problem). In the
-meantime, contrary to normal advice, users are encouraged to cross-post
-to ensure subjects are not missed.
 
 #### OpenRISC forum
 
@@ -44,34 +39,10 @@ you to the [opencores.org OpenRISC mailing list][].
 A number of [other forums][] address other OpenCores projects (the
 Ethernet MAC, PCI, USB etc).
 
-#### Mailing lists on openrisc.net
-
-Two are [mailing lists][openrisc.net] are provided by openrisc.net.
-These tend to carry more technical discussion by developers and would-be
-developers than the forum.
-
-1.  The [Linux mailing list][] is for discussion of the port of Linux to
-    OpenRISC. [Monthly archives][] are maintained, which can be browsed
-    by name, subject, date or thread.
-
-1.  The [OpenRISC mailing list][] is for general discussion of the
-    OpenRISC architect
-
 ### FAQ
 
 In the [FAQ][] you can see all commonly asked questions. Feel free to
 add more. This FAQ focus on the OpenRISC project.
-
-### Mailing lists
-
-There are three flavours of mailing list to support the OpenRISC
-project.
-
-1.  There is the web based [OpenRISC forum][] by OpenCores.org, which
-    has been running since 2008.
-2.  There are mailman mailing lists run by [openrisc.net][],
-    particularly targeted at Linux for OpenRISC, which have been running
-    since April/May
 
   [OpenRISC forum]: http://opencores.org/forum,OpenRISC
   [openrisc.net]: http://lists.openrisc.net/
