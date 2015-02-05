@@ -28,8 +28,6 @@ more information (which can be partly outdated):
 
 - [The OpenRISC pages at opencores.org](http://opencores.org/or1k/Main_Page)
 
-- [openrisc.net](http://www.openrisc.net)
-
 - [The github projects](https://www.github.com/openrisc)
 
 ## Quick start
