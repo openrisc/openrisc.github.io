@@ -46,7 +46,7 @@ internet using this emulator.
 
 If that's not enough, feel free to compile your own code and run it in
 the simulator. There also is a <a
-href="http://s-macke.github.io/jor1k/compile.html">simple project</a>
+href="http://s-macke.github.io/jor1k/demos/compile.html">demo</a>
 where you can edit, compile and run inside the browser, so that you
 don't even need a cross-compiler toolchain!
 
