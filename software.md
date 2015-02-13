@@ -38,5 +38,23 @@ href="http://openrisc.github.io/newlib">or1k-elf newlib website</a>.
 
 ### <a id="linux" /> Linux
 
+TODO
+
 ### <a id="linux" /> RTEMS
+
+The <a href="http://www.rtems.org">RTEMS</a> port was dead for a few
+years, but has been re-established in 2014 during a Google Summer of
+Code project. The student documented his work in his <a
+href="http://heshamelmatary.blogspot.de/2014/08/gsoc-2014-porting-rtems-to-openrisc.html">blog</a>
+and the work is upstream now.
+
+There are essentially two components: The cross compiler toolchain and
+the kernel itself.
+
+#### RTEMS cross compiler
+
+
+
+#### RTEMS kernel
+
 
