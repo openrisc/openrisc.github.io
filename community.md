@@ -9,22 +9,12 @@ weight: 8
 
 ### Mailing lists
 
-There are three flavours of mailing list to support the OpenRISC
-project.
-
-1.  There is the web based [OpenRISC forum][] by OpenCores.org, which
-    has been running since 2008.
-2.  ~~There are mailman mailing lists run by [openrisc.net][],
-    particularly targeted at Linux for OpenRISC, which have been running
-    since April/May 2011.~~ **Note:** Mailing lists at openrisc.net are not
-    available any more. Use openrisc@lists.opencores.org for now until this is sorted out.
-3.  There are mailman mailing lists run by [by OpenCores][], for
-    OpenRISC and WishBone, which have been running since June 2011.
-
-The mailing lists are relatively new (first half of 2011). However a
-pattern of usage seems to be emerging, where general users ask their
-questions on the OpenRISC forum, while developers discuss new design
-ideas and post patches on the two OpenRISC mailing lists.
+The OpenRISC [mailing list][] where you can ask your questions around
+OpenRISC or get into the discussion with the developers. You can
+either just a mail to
+[openrisc@lists.librecores.org](mailto:openrisc@lists.librecores.org)
+or [subscribe][mailing list] to the list to receive all mails on the
+list.
 
 #### OpenRISC forum
 
@@ -33,24 +23,11 @@ is a web based discussion forum. Users can use full HTML to format their
 messages, and all messages are help in a simple archive online. You can
 ask to receive notifications of new messages, by going to “My Account”
 (top left of this page, beneath the OpenCores logo) and selecting
-“OpenRISC” under the **Subscriptions** section. Note. This will also add
-you to the [opencores.org OpenRISC mailing list][].
+“OpenRISC” under the **Subscriptions** section. 
 
 A number of [other forums][] address other OpenCores projects (the
 Ethernet MAC, PCI, USB etc).
 
-### FAQ
-
-In the [FAQ][] you can see all commonly asked questions. Feel free to
-add more. This FAQ focus on the OpenRISC project.
-
   [OpenRISC forum]: http://opencores.org/forum,OpenRISC
-  [openrisc.net]: http://lists.openrisc.net/
-  [by OpenCores]: http://lists.opencores.org/
-  [opencores.org OpenRISC mailing list]: OR1K:Community portal#Mailing_lists_on_opencores.org
-    "wikilink"
+  [mailing list]: http://lists.librescores.org/listinfo/OpenRISC
   [other forums]: http://opencores.org/forum
-  [Linux mailing list]: http://lists.openrisc.net/listinfo/linux
-  [Monthly archives]: http://lists.openrisc.net/pipermail/linux/
-  [OpenRISC mailing list]: http://lists.openrisc.net/listinfo/openrisc
-  [FAQ]: FAQ "wikilink"
