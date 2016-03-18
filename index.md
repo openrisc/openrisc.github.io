@@ -90,9 +90,6 @@ OpenRISC-powered entire system:
   peripheral cores and allows you to easily configure and generate
   your system-on-chip.
 
-- [orpsoc]({{BASE_PATH}}/soc.html#orpsoc) is the predecessor of fusesoc
-  and the components are still partly used.
-
 - [minsoc]({{BASE_PATH}}/soc.html#minsoc) is a minimal OpenRISC-based
   system-on-chip, that is easy to configure and implement, but still
   uses the OR1200 processor implementation.
@@ -107,44 +104,34 @@ OpenRISC-powered entire system:
 If you want to run an operating system on your OpenRISC you have a few
 options:
 
-- [Linux]({{BASE_PATH}}/software.html#Linux) has been ported and is
+- [Linux]({{BASE_PATH}}/software.html#linux) has been ported and is
   now upstream in the standard Linux repositories (upstream is the
   term that denotes that you submitted your changes to an open source
   project and they have been accepted and are now part of this
   software)
 
-- [RTEMS]({{BASE_PATH}}/software.html#RTEMS) has been ported during a
+- [RTEMS]({{BASE_PATH}}/software.html#rtems) has been ported during a
   Google Summer of Code project and is also upstream.
 
 ### Toolchains
 
-The following toolchains are generally supported:
+A few toolchains are generally supported. A C library is an essential
+part of your toolchain as it provides you the basic features. The
+following toolchains with different C libraries are available:
 
-- [GNU binutils]({{BASE_PATH}}/software.html#binutils) are the
-  standard set of code generation and linking tools, which are also
-  part of the upstream implementation.
+- [newlib]({{BASE_PATH}}/software.html#newlib-toolchain) is a small
+  library mainly used for baremetal usage. We also maintain a port of
+  it for the baremetal toolchain `or1k-elf-gcc`
 
-- [GCC]({{BASE_PATH}}/software.html#gcc) is available and used to
-  build different cross-compiler toolchains as described below.
+- [musl]({{BASE_PATH}}/software.html#musl-toolchain) is a new C library with a
+  strong emphasis on being leight-weight and correctness. There also
+  is a full toolchain `or1k-linux-musl-gcc` supported.
 
-- [LLVM]({{BASE_PATH}}/software.html#llvm) is a more modular compiler
-  framework and the OpenRISC port is fastly improving.
-
-A C library is an essential part of your toolchain as it provides you
-the basic features. The following C libraries are available:
-
-- [newlib]({{BASE_PATH}}/software.html#newlib) is a small library
-  mainly used for baremetal usage. We also maintain a port of it for
-  the baremetal toolchain `or1k-elf-gcc`
-
-- [uClibc]({{BASE_PATH}}/software.html#newlib) is a similar small
-  library and primarily used for Linux applications.
+- [uClibc]({{BASE_PATH}}/software.html#uclibc-toolchain) is a similar
+  small library and primarily used for Linux applications.
   `or1k-linux-uclibc-gcc` is the standard toolchain for Linux at the
   moment.
 
-- [musl]({{BASE_PATH}}/software.html#musl) is a new C library with a
-  strong emphasis on being leight-weight and correctness. There also
-  is a full toolchain `or1k-linux-musl-gcc` supported.
 
 ## Latest news
 <ul class="posts">  
