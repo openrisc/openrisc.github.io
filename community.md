@@ -29,5 +29,5 @@ A number of [other forums][] address other OpenCores projects (the
 Ethernet MAC, PCI, USB etc).
 
   [OpenRISC forum]: http://opencores.org/forum,OpenRISC
-  [mailing list]: http://lists.librescores.org/listinfo/OpenRISC
+  [mailing list]: http://lists.librecores.org/listinfo/OpenRISC
   [other forums]: http://opencores.org/forum
