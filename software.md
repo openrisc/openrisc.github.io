@@ -7,6 +7,30 @@ weight: 4
 ---
 {% include JB/setup %}
 
+For building your own software, OpenRISC is supported by a 32-bit GNU
+toolchain offering C and C++ support. The toolchain is available in
+several forms, depending on your use case:
+
+* [or1k-elf](#baremetal-software) for bare metal use, based on the
+  newlib library.
+
+* or1k-linux-uclibc for [Linux](#linux) application use, based on the
+  uClibc library.
+
+* [or1k-linux-musl](#musl-toolchain) for [Linux](#linux) application
+  use, based on the musl library. (recommended over uClibc)
+
+* [or1k-rtems*](#rtems-toolchain) for building software that runs on
+  the [RTEMS](#rtems) operating system.
+
+To run multiple applications in parallel and to use their rich
+features there is an up-to-date support for a few operating systems:
+
+* [Linux](#linux) is a widely used general purpose operating system.
+
+* [RTEMS](#rtems) is a real-time operating system for embedded
+  systems.
+
 ## Baremetal Software
 
 A cross-compiler toolchain is used to compile your software code for
@@ -62,6 +86,16 @@ documentation can be found on the
 TODO
 
 #### musl Toolchain
+
+The [musl toolchain]() is the preferred toolchain for build programs
+that should run on Linux. The exceptions to this is software that
+depend on extensions only found in glibc. For example, building Debian
+requires glibc.
+
+You can download prebuilt toolchains
+[here](https://github.com/openrisc/musl-cross/releases) or build it
+yourself following
+[these instructions](https://github.com/openrisc/musl-cross/wiki).
 
 ### RTEMS
 
