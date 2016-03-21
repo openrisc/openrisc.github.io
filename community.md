@@ -7,7 +7,7 @@ weight: 8
 ---
 {% include JB/setup %}
 
-### Mailing lists
+# Mailing lists
 
 The OpenRISC [mailing list][] where you can ask your questions around
 OpenRISC or get into the discussion with the developers. You can
@@ -16,7 +16,7 @@ either just a mail to
 or [subscribe][mailing list] to the list to receive all mails on the
 list.
 
-#### OpenRISC forum
+# OpenRISC forum
 
 The [OpenRISC forum][] is maintained on the opencores.org website, and
 is a web based discussion forum. Users can use full HTML to format their

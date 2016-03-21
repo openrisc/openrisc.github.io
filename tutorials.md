@@ -7,17 +7,6 @@ weight: 7
 ---
 {% include JB/setup %}
 
-### Manuals
-
-See the [architecture specification][] page for the architecture manual.
-
-A
-[<http://opencores.org/openrisc,file,b3BlbnJpc2MxMjAwX3NwZWNfMC43X2pwLnBkZg>==
-Japanese version] of the OR1200 specification by Takashi Okawa is also
-available.
-
-### Tutorials
-
 This tutorial section contains guides and information that helps new
 OpenRISC users to get started more easily.
 
