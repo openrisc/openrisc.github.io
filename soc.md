@@ -9,6 +9,40 @@ weight: 5
 
 ## <a id="fusesoc" /> FuseSoC
 
+### Summary
+
+ * License: [GPL v3](https://opensource.org/licenses/GPL-3.0)
+ * Language: Python (imports both Verilog and VHDL cores)
+ * Status: Under active development
+
+### Description
+
+FuseSoC is a package manager and a set of build tools for HDL
+(Hardware Description Language) code.
+
+Its main purpose is to increase reuse of IP (Intellectual Property)
+cores and be an aid for creating, building and simulating SoC
+solutions.
+
+The package manager part can be seen as an apt, portage, yum, dnf,
+pacman for FPGA (Field-Programmable Gate Array)/ASIC
+(Application-Specific Integrated Circuit) IP cores.  A simple ini file
+describes mainly which files the IP core contains, which other IP
+cores it depends on and where FuseSoC shall fetch the code.
+
+A collection of cores together with a top-level is called a system,
+and systems can be simulated or passed through the FPGA vendor tools
+to build a loadable FPGA image.
+
+Currently FuseSoc supports simulations with ModelSim, Icarus Verilog,
+Verilator, Isim and Xsim. It also supports building FPGA images with
+Xilinx ISE and Altera Quartus.
+
+### Links
+
+ * [Code Repository](https://github.com/olofk/fusesoc)
+
+
 ## <a id="orpsoc" /> ORPSoC
 
 ## <a id="minsoc" /> minSoC
