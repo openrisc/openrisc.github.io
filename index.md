@@ -99,6 +99,12 @@ OpenRISC-powered entire system:
   configurable number of OpenRISC (mor1kx) processors to arbitrarily
   large platforms.
 
+ - [MiSoC]({{BASE_PATH}}/soc.html#misoc) is a SoC generator using the
+   Python based [Migen](https://m-labs.hk/gateware.html) which
+   can use the mor1k processor. Both high performance and optimized
+   for small FPGA footprint, it supports a large number of development
+   boards out the box.
+
 ### Operating Systems
 
 If you want to run an operating system on your OpenRISC you have a few
