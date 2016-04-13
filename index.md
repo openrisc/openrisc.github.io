@@ -130,7 +130,7 @@ following toolchains with different C libraries are available:
   it for the baremetal toolchain `or1k-elf-gcc`
 
 - [musl]({{BASE_PATH}}/software.html#musl-toolchain) is a new C library with a
-  strong emphasis on being leight-weight and correctness. There also
+  strong emphasis on being light-weight and correctness. There also
   is a full toolchain `or1k-linux-musl-gcc` supported.
 
 - [uClibc]({{BASE_PATH}}/software.html#uclibc-toolchain) is a similar
