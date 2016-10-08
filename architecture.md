@@ -60,10 +60,19 @@ architecture with the following features:
 The OpenRISC architecture specfication is community driven and revisions
 can be proposed by anyone.
 
+The revision process is:
+   - Create a `architecture.md` page change pull requests aginst repo https://github.com/openrisc/doc
+   - Send mail to the `openrisc@lists.librecores.org` mailing list for discssion
+   - Once a critical mass of changes is made we will discuss the final cut of changes
+   - Onces this final changes are decided a volunteer will update the `odf` and `pdf` docs and post the 
+     changes back to this Specification page and download page
+
+### Revision Proposals
+
+`no current requests`
+
 ### Revision 1.1
 
  - Download [pdf](https://raw.githubusercontent.com/openrisc/doc/master/openrisc-arch-1.1-rev0.pdf) [odf]
  - Changes
   - Adds support for l.lwa and l.swa atomic operations
-
-###
