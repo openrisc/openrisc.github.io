@@ -54,3 +54,16 @@ architecture with the following features:
 
  - Two simple adressing modes: Register indirect with displacement and
    PC relative
+
+## Architecture Revisions
+
+The OpenRISC architecture specfication is community driven and revisions
+can be proposed by anyone.
+
+### Revision 1.1
+
+ - Download [pdf](https://raw.githubusercontent.com/openrisc/doc/master/openrisc-arch-1.1-rev0.pdf) [odf]
+ - Changes
+  - Adds support for l.lwa and l.swa atomic operations
+
+###
