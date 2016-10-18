@@ -62,20 +62,41 @@ can be proposed by anyone.
 
 The revision process is:
 
- - Create a `architecture.md` page change pull requests aginst repo https://github.com/openrisc/doc
- - Send mail to the `openrisc@lists.librecores.org` mailing list for discssion
+ - Create a new revision by copying the [revision template](/revisions/template) in the
+   in the [openrisc.io](https://github.com/openrisc/openrisc.github.io) project and making
+   a pull request.
+ - Send mail to the <openrisc@lists.librecores.org> mailing list for discssion
  - Once a critical mass of changes is made we will discuss the final cut of changes
- - Onces this final changes are decided a volunteer will update the `odf` and `pdf` docs and post the 
-   changes back to this Specification page and download page
+ - Once the final changes are decided a volunteer will update the `odt` and `pdf` 
+   [docs](https://github.com/openrisc/doc) and post the changes back to this Specification 
+   page.
 
-### Revision Proposals
+## Draft Revision
 
-`no current requests`
+{% for revision in site.revisions %}
+  {% if revision.category == "draft" %}
+<!-- {% increment drafts %} -->
+### [{{ revision.title }}]({{revision.url}})
+*{{revision.date | date: "%Y-%m-%d"}}*
+{{revision.excerpt}}
+---
+  {% endif %}
+{% endfor %}
 
-### Revision 1.1
+{% if drafts == 0 %}
+*There are currently no drafts under review*
+{% endif %}
 
- - Download [pdf](https://raw.githubusercontent.com/openrisc/doc/master/openrisc-arch-1.1-rev0.pdf)
- - Changes
-    - Adds support for l.lwa and l.swa atomic operations
+## Historical Revisions
 
-### Historical Revisions
+Historical revisions that have been reviewed, signed-off and published.
+
+{% assign sortedRevisions = site.revisions | reverse %}
+{% for revision in sortedRevisions %}
+  {% if revision.category == "released" %}
+### [{{ revision.title }}]({{revision.url}})
+*{{revision.date | date: "%Y-%m-%d"}}*  
+{{revision.excerpt}}
+---
+  {% endif %}
+{% endfor %}
