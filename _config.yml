@@ -32,6 +32,10 @@ collections:
   revisions:
     output: true
     excerpt_separator: "\n\n"
+  proposals:
+    output: true
+    excerpt_separator: "\n\n"
+
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
