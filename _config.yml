@@ -28,6 +28,15 @@ author :
 #
 production_url : http://openrisc.github.io
 
+collections:
+  revisions:
+    output: true
+    excerpt_separator: "\n\n"
+  proposals:
+    output: true
+    excerpt_separator: "\n\n"
+
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
@@ -55,7 +64,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://openrisc.github.io
+  # BASE_PATH : https://openrisc.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]

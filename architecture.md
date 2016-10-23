@@ -54,3 +54,51 @@ architecture with the following features:
 
  - Two simple adressing modes: Register indirect with displacement and
    PC relative
+
+## Architecture Revisions
+
+The OpenRISC architecture specfication is community driven and revisions
+can be proposed by anyone.
+
+The revision process is:
+
+ - Create a new proposal by copying the [proposal template](/proposals/template) in the
+   in the [openrisc.io](https://github.com/openrisc/openrisc.github.io) project and making
+   a pull request.
+ - Send mail to the <openrisc@lists.librecores.org> mailing list for discssion
+ - Once a critical mass of changes is made we will discuss the final cut of changes
+ - Once the final changes are decided a volunteer will update the `odt` and `pdf` 
+   [docs](https://github.com/openrisc/doc) and post the changes back to this Specification 
+   page as a new revision.
+
+## Revisions
+
+Historical revisions that have been reviewed, signed-off and published.
+
+{% assign sortedRevisions = site.revisions | reverse %}
+{% for revision in sortedRevisions %}
+  {% if revision.category == "released" %}
+### [{{ revision.title }}]({{revision.url}})
+*{{revision.date | date: "%Y-%m-%d"}}*  
+{{revision.excerpt}}
+---
+  {% endif %}
+{% endfor %}
+
+## Proposals
+
+{% for proposal in site.proposals %}
+  {% if proposal.category == "draft" %}
+<!-- {% increment drafts %} -->
+
+### [{{ proposal.title }}]({{proposal.url}})
+*{{proposal.date | date: "%Y-%m-%d"}} - {{proposal.author}}*
+{{proposal.excerpt}}
+---
+  {% endif %}
+{% endfor %}
+
+{% if drafts == 0 %}
+*There are currently no proposals review*
+{% endif %}
+
