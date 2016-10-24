@@ -31,11 +31,22 @@ production_url : http://openrisc.github.io
 collections:
   revisions:
     output: true
-    excerpt_separator: "\n\n"
   proposals:
     output: true
-    excerpt_separator: "\n\n"
 
+defaults:
+ - scope:
+    path: ""
+    type: revisions
+   values:
+    layout: page
+    excerpt_separator: <!--more--> 
+ - scope:
+    path: ""
+    type: proposals
+   values:
+    layout: page
+    excerpt_separator: "\n\n"
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

@@ -7,6 +7,6 @@ tagline:
 ---
 {% include JB/setup %}
 This is the original spec kept here for archive purposes.
- - Download [pdf](https://raw.githubusercontent.com/openrisc/doc/master/archive/openrisc_arch.pdf)
 
+ - **Download** [pdf](https://raw.githubusercontent.com/openrisc/doc/master/archive/openrisc_arch.pdf)
 
