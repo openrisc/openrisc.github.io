@@ -1,5 +1,4 @@
 ---
-layout: page
 title: SPR access updates (P3)
 category: draft
 date: 2015-03-03 10:41

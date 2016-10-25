@@ -1,5 +1,4 @@
 ---
-layout: page
 title: ORBIS64/ORFPX64 Additions - l.movl, l.addl (P10)
 category: draft
 date: 2015-03-06 17:40

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: ORFPX32/ORFPX64 - lf.sf* (P7)
 category: draft
 date: 2015-03-06 23:25

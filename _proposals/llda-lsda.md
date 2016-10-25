@@ -1,5 +1,4 @@
 ---
-layout: page
 title: ORBIS64/ORFPX64 Additions - l.lda, l.sda (P8)
 category: draft
 date: 2015-03-06 16:40

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: ORFPX32/ORFPX64 - lf.madd (P6)
 category: draft
 date: 2015-03-06 21:57

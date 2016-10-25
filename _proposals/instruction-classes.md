@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Instruction Classes (P5)
 category: draft
 date: 2012-04-21
