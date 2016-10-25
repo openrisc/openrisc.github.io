@@ -10,6 +10,13 @@ weight: 7
 This tutorial section contains guides and information that helps new
 OpenRISC users to get started more easily.
 
+The Official openrisc tutorials and docs:
+
+-   [Debugging OpenRISC][] running on a platform with gdb
+-   [Building Linux][] for OpenRISC
+-   [De0 Nano][] running barebone software
+-   [Or1ksim][] simulating OpenRISC programs on the simulator
+
 Material for beginners to soft cores on FPGA:
 
 -   [Sven-Åke Andersson][] has written a comprehensive [blog on OpenRISC
@@ -42,13 +49,13 @@ Wetenschap & Kunst, Campus de Nayer
 
 Tutorials on how to implement OR1200 on Xilinx Spartan-6 FPGA.
 
--   OpenRISC implemented on the Digilent Atlys board [1][blog on
-    OpenRISC for newbies]
+-   OpenRISC implemented on the Digilent Atlys board [blog on
+    OpenRISC for newbies][1]
 
 Tutorials on how to implement OR1200 on Xilinx and Altera FPGAs using
 MinSoC.
 
--   MinSoC Tutorials [2][3]
+-   MinSoC Tutorials [openrisc on xilinx][2], [minsoc.com start][3]
 
 Tutorials on compiling and running software in or1ksim:
 
@@ -58,7 +65,10 @@ Tutorials on compiling and running software in or1ksim:
 A Dynamic Reconfigurable OpenRISC Framework called Proteus : [Proteus
 Framework][]
 
-  [architecture specification]: Architecture_Specification "wikilink"
+  [Debugging OpenRISC]: https://github.com/openrisc/tutorials/blob/master/docs/Debugging.md
+  [Building Linux]:https://github.com/openrisc/tutorials/blob/master/docs/Linux.md
+  [De0 Nano]:https://github.com/openrisc/tutorials/tree/master/de0_nano
+  [Or1ksim]:https://github.com/openrisc/tutorials/tree/master/or1ksim
   [Sven-Åke Andersson]: User:svenand "wikilink"
   [blog on OpenRISC for newbies]: http://www.rte.se/blog/blogg-modesty-corex/openrisc-1200-soft-processor
   [Jeremy Bennett]: User:Jeremybennett "wikilink"

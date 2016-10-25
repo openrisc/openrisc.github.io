@@ -58,7 +58,7 @@ There are two mainline processor core implementations:
   implementation of the processor in Verilog. It implements the basic
   features and is still widely used, although not actively developed.
 
-- [mor1k]({{BASE_PATH}}/implementations.html#mor1kx) is a novel
+- [mor1kx]({{BASE_PATH}}/implementations.html#mor1kx) is a novel
   implementation which is more sophisticated and has different
   variants with respect to the number of pipeline stages, tightly
   coupled memory or the presence of a delay slot. It has also been

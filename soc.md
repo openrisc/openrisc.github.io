@@ -41,7 +41,7 @@ Xilinx ISE and Altera Quartus.
 ### Links
 
  * [Code Repository](https://github.com/olofk/fusesoc)
-
+ * [Cores Repository](https://github.com/openrisc/orpsoc-cores)
 
 ## <a id="orpsoc" /> ORPSoC
 
