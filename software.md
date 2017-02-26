@@ -14,13 +14,13 @@ several forms, depending on your use case:
 * [or1k-elf](#baremetal-software) for bare metal use, based on the
   newlib library.
 
-* or1k-linux-uclibc for [Linux](#linux) application use, based on the
-  uClibc library.
+* [or1k-linux-uclibc](#uclibc-ng-toolchain) for [Linux](#linux) application use, based on the
+  uClibc-ng library.
 
-* [or1k-linux-musl](#musl-toolchain) for [Linux](#linux) application
+* [or1k-linux-musl](#musl-toolchain) also for [Linux](#linux) application
   use, based on the musl library. (recommended over uClibc)
 
-* [or1k-rtems*](#rtems-toolchain) for building software that runs on
+* [or1k-rtems](#rtems-toolchain) for building software that runs on
   the [RTEMS](#rtems) operating system.
 
 To run multiple applications in parallel and to use their rich
@@ -34,7 +34,7 @@ features there is an up-to-date support for a few operating systems:
 ## Baremetal Software
 
 A cross-compiler toolchain is used to compile your software code for
-the OpenRISC processor. The toolchain is executed on the the host
+the OpenRISC processor. The toolchain is executed on the host
 computer and generates a program or library that can be executed on
 the processor then. There is a baremetal toolchain that is based on
 the [Newlib](https://sourceware.org/newlib/) C library. Other
@@ -79,23 +79,37 @@ handling, timers and other peripherals. The latest releases and
 documentation can be found on the
 [or1k-elf newlib website](http://openrisc.github.io/newlib).
 
-## Operating Systems
+#### musl toolchain
 
-### Linux
-
-TODO
-
-#### musl Toolchain
-
-The [musl toolchain]() is the preferred toolchain for build programs
-that should run on Linux. The exceptions to this is software that
-depend on extensions only found in glibc. For example, building Debian
-requires glibc.
+The [musl toolchain](https://www.musl-libc.org) is the preferred toolchain
+for building programs that should run on Linux. The exceptions to this is
+software that depend on extensions only found in glibc. For example,
+building Debian requires glibc.
 
 You can download prebuilt toolchains
 [here](https://github.com/openrisc/musl-cross/releases) or build it
 yourself following
 [these instructions](https://github.com/openrisc/musl-cross/wiki).
+
+#### uClibc-ng Toolchain
+
+The [uClibc-ng toolchain](https://uclibc-ng.org) is a reboot of the uClibc
+project which also is for building programs that should run on Linux.  It has
+good support for OpenRISC and is more compatible with glibc, meaning you can
+easily compile more applications for it compared to musl.
+
+You can download and build the source downloading from the uClibc-ng website.
+
+
+## Operating Systems
+
+### Linux
+
+The [Linux](http://kernel.org) operating system should need no introduction. The
+support for OpenRISC is stable.
+
+See our tutorials on [compiling and running linux](https://github.com/openrisc/tutorials/blob/master/docs/Linux.md)
+on OpenRISC.
 
 ### RTEMS
 
@@ -106,3 +120,21 @@ project. The student documented his work in his
 and the work is part of the RTEMS project now.
 
 
+## Applications
+
+### Buildroot
+
+The [Buildroot](https://buildroot.org) project provides a build system cross compiling
+and packaging multiple applications for your embedded project.  This means instead
+of you having to go and download tarballs and run `./configure && make && make install`
+and chase down build failures you have an nice tool to do it all for you.
+
+Buildroot supports building and packaging applications for linux using uClibc-ng.
+
+### OpenADK
+
+The [OpenADK](https://openadk.org) project comes from the maintainers of `uClibc-ng` and
+is also a embedded linux construction kit.  The team is active in the OpenRISC
+community so you can expect good support.
+
+It supports both musl and uClibc-ng.

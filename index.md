@@ -133,11 +133,22 @@ following toolchains with different C libraries are available:
   strong emphasis on being light-weight and correctness. There also
   is a full toolchain `or1k-linux-musl-gcc` supported.
 
-- [uClibc]({{BASE_PATH}}/software.html#uclibc-toolchain) is a similar
-  small library and primarily used for Linux applications.
-  `or1k-linux-uclibc-gcc` is the standard toolchain for Linux at the
-  moment.
+- [uClibc-ng]({{BASE_PATH}}/software.html#uclibc-ng-toolchain) a reboot of the
+  uClibc project, is a similar small library and primarily used for Linux
+  applications.  `or1k-linux-uclibc-gcc` is the standard toolchain for Linux
+  at the moment.
 
+### Applications
+
+Cross compiling applications to your OpenRISC embedded target and packaging
+them up into a root filesystem image could be tedious.  There are a few
+options to smooth the process:
+
+- [Buildroot]({{BASE_PATH}}/software.html#buildroot) has support for building
+  applictions using the uClibc-ng toolchain.
+
+- [OpenADK]({{BASE_PATH}}/software.html#openadk) from the maintainers of uClibc-ng
+  has support for building using both uClibc-ng and musl toolchains.
 
 ## Latest news
 <ul class="posts">  
