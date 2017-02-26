@@ -11,7 +11,7 @@ For building your own software, OpenRISC is supported by a 32-bit GNU
 toolchain offering C and C++ support. The toolchain is available in
 several forms, depending on your use case:
 
-* [or1k-elf](#baremetal-software) for bare metal use, based on the
+* [or1k-elf](#mewlib-toolchain) for bare metal use, based on the
   newlib library.
 
 * [or1k-linux-uclibc](#uclibc-ng-toolchain) for [Linux](#linux) application use, based on the
@@ -31,7 +31,16 @@ features there is an up-to-date support for a few operating systems:
 * [RTEMS](#rtems) is a real-time operating system for embedded
   systems.
 
-## Baremetal Software
+To build multiple applications you may want a easy to use build system
+like:
+
+* [buildroot](#buildroot) makefiles and patches to build a complete bootable
+  linux system.
+
+* [OpenADK](#openadk) also a system to build a complete bootable linux system
+  with applications.  Has good support for OpenRISC.
+
+## Toolchains
 
 A cross-compiler toolchain is used to compile your software code for
 the OpenRISC processor. The toolchain is executed on the host
@@ -79,7 +88,7 @@ handling, timers and other peripherals. The latest releases and
 documentation can be found on the
 [or1k-elf newlib website](http://openrisc.github.io/newlib).
 
-#### musl toolchain
+### musl toolchain
 
 The [musl toolchain](https://www.musl-libc.org) is the preferred toolchain
 for building programs that should run on Linux. The exceptions to this is
@@ -91,7 +100,7 @@ You can download prebuilt toolchains
 yourself following
 [these instructions](https://github.com/openrisc/musl-cross/wiki).
 
-#### uClibc-ng Toolchain
+### uClibc-ng Toolchain
 
 The [uClibc-ng toolchain](https://uclibc-ng.org) is a reboot of the uClibc
 project which also is for building programs that should run on Linux.  It has
