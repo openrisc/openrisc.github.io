@@ -10,7 +10,7 @@ weight: 3
 Several implementations of the OpenRISC architecture exist. In the
 following we will summarize the most well known.
 
-## Harware Implementations
+## Hardware Implementations
 
 The hardware implementations are full processor implementations
 written in an [Hardware Description
