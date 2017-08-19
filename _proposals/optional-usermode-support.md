@@ -1,4 +1,5 @@
 ---
+layout: proposal
 title: Optional user-mode support (P2)
 category: draft
 date: 2015-03-03 10:51

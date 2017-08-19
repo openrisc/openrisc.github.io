@@ -1,4 +1,5 @@
 ---
+layout: proposal
 title: Proposal Template
 category: template
 date: 2016-10-17

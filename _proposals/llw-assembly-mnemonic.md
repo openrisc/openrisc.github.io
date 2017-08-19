@@ -1,4 +1,5 @@
 ---
+layout: proposal
 title: l.lw assembly mnemonic (P4)
 category: draft
 date: 2012-05-16 09:25

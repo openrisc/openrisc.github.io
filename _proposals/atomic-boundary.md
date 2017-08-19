@@ -1,4 +1,5 @@
 ---
+layout: proposal
 title: Clarification on Atomic Boundaries (P16)
 category: draft
 date: 2017-08-19 18:21

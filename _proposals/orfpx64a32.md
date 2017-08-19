@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: proposal
 title: ORFPX64A32 (P14)
 category: draft
 date: 2015-03-12 15:35

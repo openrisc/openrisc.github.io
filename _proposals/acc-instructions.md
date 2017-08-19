@@ -1,4 +1,5 @@
 ---
+layout: proposal
 title: ORBIS64/ORFPX64 Additions - ACC instructions (P12)
 category: draft
 date: 2015-03-06 18:29

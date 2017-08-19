@@ -1,4 +1,5 @@
 ---
+layout: proposal
 title: Core Identifier and Number of Cores (P1)
 category: draft
 date: 2015-03-03 10:34
