@@ -21,6 +21,6 @@ In the assigned roles tables of section `16.2.1 Register Usage` explain:
 
 | R10 [TLS] | *Thread Local Storage* used to locate the thread local
               storage structure.  This mechanism, as explained in the GCC
-              manual, allows variables to be **allocated such that there is
-              one instance of the variable per extant thread**.
+              manual, allows variables to be "allocated such that there is
+              one instance of the variable per extant thread".
 </pre>
