@@ -2,7 +2,7 @@
 layout: proposal
 title: Clarification on Atomic Boundaries (P16)
 category: draft
-date: 2017-08-19 18:21
+date: 2017-08-18 18:21
 author: Stafford Horne
 ---
 
