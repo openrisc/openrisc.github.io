@@ -52,12 +52,12 @@ architecture with the following features:
 
  - ORFPX32/64: Floating point extensions operating on 32-bit/64-bit
 
- - Two simple adressing modes: Register indirect with displacement and
+ - Two simple addressing modes: Register indirect with displacement and
    PC relative
 
 ## Architecture Revisions
 
-The OpenRISC architecture specfication is community driven and revisions
+The OpenRISC architecture specification is community driven and revisions
 can be proposed by anyone.
 
 The revision process is:
@@ -65,11 +65,13 @@ The revision process is:
  - Create a new proposal by copying the [proposal template](/proposals/template) in the
    in the [openrisc.io](https://github.com/openrisc/openrisc.github.io) project and making
    a pull request.
- - Send mail to the <openrisc@lists.librecores.org> mailing list for discssion
+ - Send mail to the <openrisc@lists.librecores.org> mailing list for discussion
  - Once a critical mass of proposals are made we will discuss the final cut of changes
  - Once the final proposals are decided a volunteer will update the `odt` and `pdf` 
    [docs](https://github.com/openrisc/doc) and post back to this Specification 
    page with a new revision.
+ - After the proposal is added to the specification and the revision page
+   is create mark all proposal drafts as accepted.
 
 ## Revisions
 
@@ -103,4 +105,3 @@ Currently pending proposals.
 {% if drafts == 0 %}
 *There are currently no proposals for review*
 {% endif %}
-
