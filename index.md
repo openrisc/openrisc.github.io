@@ -22,7 +22,7 @@ The project is driven by a very active community and has a long
 history. This unfortunately lead to scattered and partly outdated
 information. The goal of this page is to provide an overview over
 active parts of the project and the current development to ease the
-enty for newcomers or people seeking basic information. The
+entry for newcomers or people seeking basic information. The
 information is collected from the following sites where you can find
 more information (which can be partly outdated):
 
@@ -72,7 +72,7 @@ out, you have the following options:
 
 - [or1ksim]({{BASE_PATH}}/implementations.html#or1ksim) is an
   instruction accurate simulator with a lot of features including
-  flexbile configuration and gdb debugging.
+  flexible configuration and gdb debugging.
 
 - [qemu]({{BASE_PATH}}/implementations.html#qemu) has a patch to
   support the OpenRISC processor
@@ -145,7 +145,7 @@ them up into a root filesystem image could be tedious.  There are a few
 options to smooth the process:
 
 - [Buildroot]({{BASE_PATH}}/software.html#buildroot) has support for building
-  applictions using the uClibc-ng toolchain.
+  applications using the uClibc-ng toolchain.
 
 - [OpenADK]({{BASE_PATH}}/software.html#openadk) from the maintainers of uClibc-ng
   has support for building using both uClibc-ng and musl toolchains.
