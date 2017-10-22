@@ -7,7 +7,7 @@ tagline: Project Overview
 
 Welcome to the project overview of the OpenRISC project. The major
 goal of the project it to create a free and open processor for
-embedded system. This includes:
+embedded systems. This includes:
 
 - a free and open RISC instruction set architecture with DSP features
 
