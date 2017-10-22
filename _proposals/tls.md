@@ -1,7 +1,7 @@
 ---
 layout: proposal
 title: Designation of r10 for TLS (P15)
-category: draft
+category: r1.2
 date: 2017-08-18 17:54
 author: Stafford Horne
 ---
