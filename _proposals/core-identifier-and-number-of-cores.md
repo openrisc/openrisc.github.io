@@ -1,14 +1,19 @@
 ---
 layout: proposal
 title: Core Identifier and Number of Cores (P1)
-category: draft
+category: r1.2
 date: 2015-03-03 10:34
 author: Wallento
 ---
 
-To enable multicore systems, a Special Purpose Register 'Core ID' is needed. Although it is principally not necessary, but allows for a self-contained solution, I furthermore propose a 'Number of Cores' register, which contains the number of cores in a SMP cluster.
+To enable multicore systems, a Special Purpose Register 'Core ID' is needed.
+Although it is principally not necessary, but allows for a self-contained
+solution, I furthermore propose a 'Number of Cores' register, which contains the
+number of cores in a SMP cluster.
 
-Proposal: Use system status register address space 128+ for multicore specifics. I think there may further things come up, so that it may make sense to reserve some space.
+Proposal: Use system status register address space 128+ for multicore specifics.
+I think there may further things come up, so that it may make sense to reserve
+some space.
 
 This is already in mor1kx..
 
