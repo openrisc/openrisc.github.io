@@ -67,9 +67,11 @@ Some basic tools form an actual toolchain:
   our own cloned [repository](https://github.com/openrisc/or1k-gcc).
 
 * [GDB](https://www.gnu.org/s/gdb/): The debugger is used to find and
-  fix bugs in programs running on the target platform. The GDB project
-  does not support OpenRISC by default, but instead our cloned
-  [repository](https://github.com/openrisc/binutils-gdb) must be used.
+  fix bugs in programs running on the target platform. The gdb distribution
+  contains support for OpenRISC (`or1k`). An OpenRISC development
+  [repository](https://github.com/openrisc/binutils-gdb) is used to test
+  new features and share with the community before submitting to the upstream
+  gdb project.
 
 ### Newlib Toolchain
 
@@ -88,6 +90,10 @@ handling, timers and other peripherals. The latest releases and
 documentation can be found on the
 [or1k-elf newlib website](http://openrisc.github.io/newlib).
 
+You can download prebuilt toolchains [here](https://github.com/openrisc/or1k-gcc/releases)
+or build it yourself following
+[these instructions](https://openrisc.io/newlib/building.html).
+
 ### musl toolchain
 
 The [musl toolchain](https://www.musl-libc.org) is the preferred toolchain
@@ -95,9 +101,8 @@ for building programs that should run on Linux. The exceptions to this is
 software that depend on extensions only found in glibc. For example,
 building Debian requires glibc.
 
-You can download prebuilt toolchains
-[here](https://github.com/openrisc/musl-cross/releases) or build it
-yourself following
+You can download prebuilt toolchains [here](https://github.com/openrisc/or1k-gcc/releases)
+or build it yourself following
 [these instructions](https://github.com/openrisc/musl-cross/wiki).
 
 ### uClibc-ng Toolchain
