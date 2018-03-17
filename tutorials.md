@@ -16,6 +16,10 @@ The Official openrisc tutorials and docs:
 -   [Building Linux][] for OpenRISC
 -   [De0 Nano][] running barebone software
 -   [Or1ksim][] simulating OpenRISC programs on the simulator
+-   [Building a musl toolchain](https://github.com/openrisc/musl-cross/wiki)
+    which includes `or1k-linux-musl-gcc`.
+-   [Building a newlib toolchain](https://openrisc.io/newlib/building.html)
+    which includes `or1k-elf-gcc` and `or1k-elf-gdb`.
 
 Material for beginners to soft cores on FPGA:
 

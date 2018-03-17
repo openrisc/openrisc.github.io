@@ -44,7 +44,7 @@ but it has its advantages.
  - It is licensed under the [OHDL](http://juliusbaxter.net/ohdl/) which is 
    suited for open hardware
  - It implementation is highly reconfigurable allowing to be resized to meet 
-   target sixe and performance requirements.
+   target size and performance requirements.
  - It has 
    [docs](https://github.com/openrisc/mor1kx/blob/master/doc/mor1kx.asciidoc) 
    that explain even more
@@ -67,7 +67,7 @@ which can be built with [FuseSoC]({{BASE_PATH}}/soc.html#fusesoc).
 
 Or1ksim is a generic OpenRISC 1000 architecture simulator capable of emulating OpenRISC 
 based computer systems at the instruction level. It includes models of a range of 
-peripherals, allowing complete systems to be modelled.
+peripherals, allowing complete systems to be modeled.
 
 #### Links
    * [openrisc/or1ksim](https://github.com/openrisc/or1ksim) - github repo
