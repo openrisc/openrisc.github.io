@@ -35,9 +35,9 @@ To build multiple applications you may want a easy to use build system
 like:
 
 * [buildroot](#buildroot) makefiles and patches to build a complete bootable
-  linux system.
+  Linux system.
 
-* [OpenADK](#openadk) also a system to build a complete bootable linux system
+* [OpenADK](#openadk) also a system to build a complete bootable Linux system
   with applications.  Has good support for OpenRISC.
 
 ## Toolchains
@@ -62,9 +62,9 @@ Some basic tools form an actual toolchain:
   test new features before submitting it to the binutils project.
 
 * [GCC](https://gcc.gnu.org): GCC is the compiler that translates
-  C/C++ to programs or libraries. The GCC project does not support
-  OpenRISC by default, but instead it is required to build GCC from
-  our own cloned [repository](https://github.com/openrisc/or1k-gcc).
+  C/C++ to programs or libraries. The GCC project has support for
+  OpenRISC `or1k`.  Historical development, binaries and experimental
+  features are available in our development [repository](https://github.com/openrisc/or1k-gcc).
 
 * [GDB](https://www.gnu.org/s/gdb/): The debugger is used to find and
   fix bugs in programs running on the target platform. The gdb distribution
@@ -122,7 +122,7 @@ You can download and build the source downloading from the uClibc-ng website.
 The [Linux](http://kernel.org) operating system should need no introduction. The
 support for OpenRISC is stable.
 
-See our tutorials on [compiling and running linux](https://github.com/openrisc/tutorials/blob/master/docs/Linux.md)
+See our tutorials on [compiling and running Linux](https://github.com/openrisc/tutorials/blob/master/docs/Linux.md)
 on OpenRISC.
 
 ### RTEMS
@@ -143,12 +143,12 @@ and packaging multiple applications for your embedded project.  This means inste
 of you having to go and download tarballs and run `./configure && make && make install`
 and chase down build failures you have an nice tool to do it all for you.
 
-Buildroot supports building and packaging applications for linux using uClibc-ng.
+Buildroot supports building and packaging applications for Linux using uClibc-ng.
 
 ### OpenADK
 
 The [OpenADK](https://openadk.org) project comes from the maintainers of `uClibc-ng` and
-is also a embedded linux construction kit.  The team is active in the OpenRISC
+is also a embedded Linux construction kit.  The team is active in the OpenRISC
 community so you can expect good support.
 
 It supports both musl and uClibc-ng.
