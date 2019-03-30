@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Architecture
-tagline: 
+tagline:
 group: navigation
 weight: 2
 ---
@@ -67,21 +67,22 @@ The revision process is:
    a pull request.
  - Send mail to the <openrisc@lists.librecores.org> mailing list for discussion
  - Once a critical mass of proposals are made we will discuss the final cut of changes
- - Once the final proposals are decided a volunteer will update the `odt` and `pdf` 
-   [docs](https://github.com/openrisc/doc) and post back to this Specification 
+ - Once the final proposals are decided a volunteer will update the `odt` and `pdf`
+   [docs](https://github.com/openrisc/doc) and post back to this Specification
    page with a new revision.
  - After the proposal is added to the specification and the revision page
    is create mark all proposal drafts as accepted.
 
 ## Revisions
 
-Historical revisions that have been reviewed, signed-off and published.
+This is a list of historical revisions that have been reviewed, signed-off and
+published.
 
 {% assign sortedRevisions = site.revisions | reverse %}
 {% for revision in sortedRevisions %}
   {% if revision.category == "released" %}
 ### [{{ revision.title }}]({{revision.url}})
-*{{revision.date | date: "%Y-%m-%d"}}*  
+*{{revision.date | date: "%Y-%m-%d"}}*
 {{revision.excerpt}}
 ---
   {% endif %}
@@ -89,7 +90,7 @@ Historical revisions that have been reviewed, signed-off and published.
 
 ## Proposals
 
-Currently pending proposals.
+This is a list of currently pending proposals.
 
 {% for proposal in site.proposals %}
   {% if proposal.category == "draft" %}
