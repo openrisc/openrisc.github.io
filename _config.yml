@@ -28,6 +28,7 @@ author :
 #
 production_url : https://openrisc.github.io
 
+# Define lists of proposals and revisions used on the architecture page
 collections:
   revisions:
     output: true
