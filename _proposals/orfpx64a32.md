@@ -20,11 +20,15 @@ Example:
 
 ## 32-bit Format (ORFPX64A32):
 
-`lf.add.d rD1,rD2,rA1,rA2,rB1,rB2`
+```
+lf.add.d rD1,rD2,rA1,rA2,rB1,rB2
+```
 
 ## 64-bit Format (ORFPX64):
 
-`lf.add.d rD,rA,rB`
+```
+lf.add.d rD,rA,rB
+```
 
 ## Description
 
@@ -40,31 +44,47 @@ as per the following:
 - bit[9]  - 1 indicates if rA2 is rA1+2, otherwise rA1+1
 - bit[8]  - 1 indicates if rB2 is rB1+2, otherwise rB1+1
 
+On 64-bit machines these shall be set to `0`.
+
 ## 32-bit Implementation (ORFPX64A32):
 
-`{rD2[31:0],rD1[31:0]} ← {rA2[31:0], rA1[31:0]} + {rB2[31:0], rB1[31:0]}`
+```
+{rD2[31:0],rD1[31:0]} ← {rA2[31:0], rA1[31:0]} + {rB2[31:0], rB1[31:0]}
+```
 
 ## 64-bit Implementation (ORFPX64):
 
-`rD[63:0] ← rA[63:0] + rB[63:0]`
+```
+rD[63:0] ← rA[63:0] + rB[63:0]
+```
 
 
 Other example encodings
 
+ALU
+
 ```
-    31  26  21  16  11     8      0
-   [ 0x32 | D | A | B | res | 0x10 ]    lf.add.d
-   [ 0x32 | D | A | B | res | 0x11 ]    lf.sub.d
+    31  26  21  16  11           8      0
+   [ 0x32 | D | A | B | regoffset | 0x10 ]    lf.add.d
+   [ 0x32 | D | A | B | regoffset | 0x11 ]    lf.sub.d
                        ...
+```
 
-    31  26    21  16  11     8      0
-   [ 0x32 | res | A | B | res | 0x18 ]  lf.sfeq.d
-   [ 0x32 | res | A | B | res | 0x19 ]  lf.sfne.d
+Comparisons
+
+```
+    31  26    21  16  11  10           8      0
+   [ 0x32 | res | A | B | 0 | regoffset | 0x18 ]  lf.sfeq.d
+   [ 0x32 | res | A | B | 0 | regoffset | 0x19 ]  lf.sfne.d
                        ...
+```
 
-    31  26  21  16    11     8      0
-   [ 0x32 | D | A | 0x0 | res | 0x15 ]  lf.ftoi.d
-   [ 0x32 | D | A | 0x0 | res | 0x14 ]  lf.itof.d
+Long Long <-> Double conversions
+
+```
+    31  26  21  16    11           9   8      0
+   [ 0x32 | D | A | 0x0 | regoffset | 0 | 0x15 ]  lf.ftoi.d
+   [ 0x32 | D | A | 0x0 | regoffset | 0 | 0x14 ]  lf.itof.d
 ```
 
 ## Considerations
