@@ -42,7 +42,7 @@ as per the following:
 
 ## 32-bit Implementation (ORFPX64A32):
 
-{rD2[31:0],rD1[31:0]} ← {rA2[31:0], rA1[31:0]} + {rB2[31:0], rB1[31:0]}`
+`{rD2[31:0],rD1[31:0]} ← {rA2[31:0], rA1[31:0]} + {rB2[31:0], rB1[31:0]}`
 
 ## 64-bit Implementation (ORFPX64):
 
