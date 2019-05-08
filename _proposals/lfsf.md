@@ -29,6 +29,15 @@ New       lf.sfun.s   0x28  1 0 0 0 0  /* isunordered(rA,rB) */
           lf.sfule.s  0x2a  1 1 1 0 0  /* !isgreater(rA,rB) */
           lf.sfueq.s  0x2b  1 1 0 0 0  /* !islessgreater(rA,rB) */
 
+BandVIG Proposed
+          lf.sfueq.s  0x28  1 1 0 0 0
+          lf.sfune.s  0x29  1 0 1 1 0
+          lf.sfugt.s  0x2a  1 0 0 1 0
+          lf.sfuge.s  0x2b  1 1 0 1 0
+          lf.sfult.s  0x2c  1 0 1 0 0
+          lf.sfule.s  0x2d  1 1 1 0 0
+          lf.sfun.s   0x2e  1 0 0 0 0
+
 un <- isnan(rA) | isnan(rB)
 eq <- rA == rB
 lt <- rA < rB
@@ -38,10 +47,13 @@ SR[F] <- (u & un) | (e & eq) | (l & lt) | (g & gt)
 
 if (X & un)
   raise INVALID_OPERAND exception
+
+For Double operations opc is is (opc 0x10)
+
 </pre>
 
 The hardware that produces the existing comparisons must be able to
-produce all of the proper intermediate conditions.  It's merely a 
+produce all of the proper intermediate conditions.  It's merely a
 matter of exposing all of the conditions we need to be able to test
 in order to implement `<math.h>` properly.
 
@@ -49,3 +61,7 @@ If we drop backward compatibility, i.e. drop lf.sfgt and lf.sfge,
 there are only 8 comparisons and we can fit them into 0b0-1xxx.
 Which has a nice bit of symmetry to it.
 
+## Updates
+
+Added BandVIG proposed unordered encodings which have been implemented
+in `or1k_marocchino`.
