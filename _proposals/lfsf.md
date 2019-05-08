@@ -48,7 +48,8 @@ SR[F] <- (u & un) | (e & eq) | (l & lt) | (g & gt)
 if (X & un)
   raise INVALID_OPERAND exception
 
-For Double operations opc is is (opc 0x10)
+For Double operations opc is the above opc but `(opc | 0x10)`.  The mnemonic is
+`lf.sf*.d`.
 
 </pre>
 
