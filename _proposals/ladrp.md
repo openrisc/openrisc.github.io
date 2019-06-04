@@ -1,7 +1,7 @@
 ---
 layout: proposal
 title: ORBIS64/ORFPX64 Additions - l.adrp (P9)
-category: draft
+category: r1.3
 date: 2015-03-06 16:41
 author: Rth
 ---

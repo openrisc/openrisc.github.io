@@ -1,7 +1,7 @@
 ---
 layout: proposal
 title: ORFPX32/ORFPX64 - lf.sf* (P7)
-category: draft
+category: r1.3
 date: 2015-03-06 23:25
 author: Rth
 ---

@@ -73,7 +73,7 @@ The revision process is:
  - After the proposal is added to the specification and the revision page
    is create mark all proposal drafts as accepted.
 
-## Revisions
+## Published Versions
 
 This is a list of historical revisions that have been reviewed, signed-off and
 published.
