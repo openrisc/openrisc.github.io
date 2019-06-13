@@ -1,7 +1,7 @@
 ---
 layout: proposal
 title: ORFPX64A32 (P14)
-category: draft
+category: r1.3
 date: 2015-03-12 15:35
 author: BAndViG
 ---
