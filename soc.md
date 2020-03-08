@@ -38,16 +38,44 @@ Currently FuseSoc supports simulations with ModelSim, Icarus Verilog,
 Verilator, Isim and Xsim. It also supports building FPGA images with
 Xilinx ISE and Altera Quartus.
 
-### Links
+### <a id="orpsoc" /> Links
 
  * [Code Repository](https://github.com/olofk/fusesoc)
- * [Cores Repository](https://github.com/openrisc/orpsoc-cores)
-
-## <a id="orpsoc" /> ORPSoC
+ * [Cores Repository (ORPSoC)](https://github.com/openrisc/orpsoc-cores)
 
 ## <a id="minsoc" /> minSoC
 
+### Summary
+
+ * License: [LGPL v3](https://opensource.org/licenses/LGPL-3.0)
+ * Language: Verilog
+ * Status: Apparently not well maintained anymore ([Wiki link](https://www.minsoc.com/) dead, no public SCM anymore)
+
+### Description
+
+minSoC is a minimal OpenRISC-based system-on-chip, that is easy to configure and implement, but still uses the OR1200 processor implementation.
+
+### Links
+
+ * [Original, old Code Repository](https://opencores.org/projects/minsoc)
+ * [New Homepage](https://www.allaboutcircuits.com/ip-cores/system-on-chip/minsoc/)
+
 ## <a id="optimsoc" /> OpTiMSoC
+
+### Summary
+
+ * License: [MIT](https://opensource.org/licenses/MIT)
+ * Language: Verilog
+ * Status: Under active development
+
+### Description
+
+OpTiMSoC is a flexible multicore system-on-chip that is based on a network-on-chip and connects a configurable number of OpenRISC (mor1kx) processors to arbitrarily large platforms.
+
+### Links
+
+ * [Homepage](https://optimsoc.org/)
+ * [Code Repository](https://github.com/optimsoc/optimsoc)
 
 ## <a id="misoc" /> MiSoC
 
