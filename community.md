@@ -16,6 +16,15 @@ either just a mail to
 or [subscribe][mailing list] to the list to receive all mails on the
 list.
 
+# IRC
+
+ * [irc.oftc.net](https://www.oftc.net/) 6697 #openrisc
+
+A few developers hang out on IRC (internet relay chat).  IRC provides a
+means to have a real-time conversation with developers to discussion issues
+and ideas.  Be aware that community members available on IRC may be operating
+in different time zones so response times may vary.
+
 # OpenRISC forum
 
 The [OpenRISC forum][] is maintained on the opencores.org website, and
@@ -23,7 +32,7 @@ is a web based discussion forum. Users can use full HTML to format their
 messages, and all messages are help in a simple archive online. You can
 ask to receive notifications of new messages, by going to “My Account”
 (top left of this page, beneath the OpenCores logo) and selecting
-“OpenRISC” under the **Subscriptions** section. 
+“OpenRISC” under the **Subscriptions** section.
 
 A number of [other forums][] address other OpenCores projects (the
 Ethernet MAC, PCI, USB etc).
