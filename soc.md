@@ -40,8 +40,30 @@ Xilinx ISE and Altera Quartus.
 
 ### <a id="orpsoc" /> Links
 
+ * [Website](http://fusesoc.net)
  * [Code Repository](https://github.com/olofk/fusesoc)
  * [Cores Repository (ORPSoC)](https://github.com/openrisc/orpsoc-cores)
+ * [Cores Repository (FuseSoC)](https://github.com/fusesoc/fusesoc-cores)
+
+## <a id="litex" /> LiteX
+
+### Summary
+
+ * License: [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
+ * Language: [Migen](https://m-labs.hk/gateware.html), Python
+ * Status: active development
+
+### Description
+
+Also built on Migec, The LiteX framework provides a convenient and efficient
+infrastructure to create FPGA Cores/SoCs, to explore various digital design
+architectures and create full FPGA based systems.
+
+### Links
+
+ * [Enjoy Digital](http://www.enjoy-digital.fr)
+ * [Code Repository](https://github.com/enjoy-digital)
+ * [Litex Hub](https://github.com/litex-hub)
 
 ## <a id="minsoc" /> minSoC
 
@@ -66,7 +88,7 @@ minSoC is a minimal OpenRISC-based system-on-chip, that is easy to configure and
 
  * License: [MIT](https://opensource.org/licenses/MIT)
  * Language: Verilog
- * Status: Under active development
+ * Status: Limited development
 
 ### Description
 
@@ -83,7 +105,6 @@ OpTiMSoC is a flexible multicore system-on-chip that is based on a network-on-ch
 
  * License: [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
  * Language: [Migen](https://m-labs.hk/gateware.html)
- * Link: https://github.com/m-labs/misoc
  * Status: Limited development
 
 ### Description
@@ -109,23 +130,8 @@ applications.
    maps and logic, simplified DMAs, etc.
  * Possibility to encapsulate legacy Verilog/VHDL code.
 
-## <a id="litex" /> LiteX
-
-### Summary
-
- * License: [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
- * Link: https://github.com/enjoy-digital/litex
- * Status: active development
-
-### Description
-
-Also built on Migec, The LiteX framework provides a convenient and efficient
-infrastructure to create FPGA Cores/SoCs, to explore various digital design
-architectures and create full FPGA based systems.
-
 ### Links
 
  * [Website](https://m-labs.hk/gateware.html)
  * [Code Repository](https://github.com/m-labs/misoc)
  * [Mailing List](https://ssl.serverraum.org/lists/listinfo/devel)
-
