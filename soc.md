@@ -83,7 +83,8 @@ OpTiMSoC is a flexible multicore system-on-chip that is based on a network-on-ch
 
  * License: [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
  * Language: [Migen](https://m-labs.hk/gateware.html)
- * Status: Under active development
+ * Link: https://github.com/m-labs/misoc
+ * Status: Limited development
 
 ### Description
 
@@ -107,6 +108,20 @@ applications.
  * Design new peripherals using Migen and benefit from automatic CSR
    maps and logic, simplified DMAs, etc.
  * Possibility to encapsulate legacy Verilog/VHDL code.
+
+## <a id="litex" /> LiteX
+
+### Summary
+
+ * License: [BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)
+ * Link: https://github.com/enjoy-digital/litex
+ * Status: active development
+
+### Description
+
+Also built on Migec, The LiteX framework provides a convenient and efficient
+infrastructure to create FPGA Cores/SoCs, to explore various digital design
+architectures and create full FPGA based systems.
 
 ### Links
 

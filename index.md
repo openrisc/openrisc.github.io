@@ -65,6 +65,11 @@ There are two mainline processor core implementations:
   recently extended to support atomic operations and multicore
   features.
 
+- [marocchino]({{BASE_PATH}}/implementations.html#marocchino) an implementation
+  with all of the advanced features of mor1kx but uses an out-of-order pipeline
+  implementing the [Tomasulo](https://en.wikipedia.org/wiki/Tomasulo_algorithm)
+  algorithm and a 64-bit FPU.
+
 ### System simulators
 
 If you want to start with simulating the processor core to just try it
@@ -99,11 +104,15 @@ OpenRISC-powered entire system:
   configurable number of OpenRISC (mor1kx) processors to arbitrarily
   large platforms.
 
- - [MiSoC]({{BASE_PATH}}/soc.html#misoc) is a SoC generator using the
+ - [MiSoC]({{BASE_PATH}}/soc.html#misoc) is an SoC generator using the
    Python based [Migen](https://m-labs.hk/gateware.html) which
-   can use the mor1k processor. Both high performance and optimized
+   can use the mor1kx processor. Both high performance and optimized
    for small FPGA footprint, it supports a large number of development
    boards out the box.
+
+ - [LiteX]({{BASE_PATH}}/soc.html#litex) is an SoC generator like MiSoC
+   also using Python base Migen.  It can be used to create mor1kx and
+   marocchino SoC's that boot Linux.
 
 ### Operating Systems
 
@@ -129,14 +138,17 @@ following toolchains with different C libraries are available:
   library mainly used for baremetal usage. We also maintain a port of
   it for the baremetal toolchain `or1k-elf-gcc`
 
-- [musl]({{BASE_PATH}}/software.html#musl-toolchain) is a new C library with a
-  strong emphasis on being light-weight and correctness. There also
-  is a full toolchain `or1k-linux-musl-gcc` supported.
+- [musl]({{BASE_PATH}}/software.html#musl-toolchain) is a C library with a
+  strong emphasis on being light-weight and correctness.
+  The Linux toolchain is `or1k-linux-musl-gcc`.
 
 - [uClibc-ng]({{BASE_PATH}}/software.html#uclibc-ng-toolchain) a reboot of the
   uClibc project, is a similar small library and primarily used for Linux
-  applications.  `or1k-linux-uclibc-gcc` is the standard toolchain for Linux
-  at the moment.
+  applications.  The Linux toolchain is `or1k-linux-uclibc-gcc`.
+
+- [glibc]({{BASE_PATH}}/software.html#glibc) is a fully
+  featured C Library for Linux. The Linux toolchain is `or1k-linux-gnu-gcc`.
+
 
 ### Applications
 

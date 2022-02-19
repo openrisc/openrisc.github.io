@@ -41,13 +41,13 @@ The mor1kx is pretty much a drop in replacement for the original or1200 processo
 but it has its advantages.
 
  - It follows, in our opinion, better coding standards compared to the or1200
- - It is licensed under the [OHDL](http://juliusbaxter.net/ohdl/) which is 
-   suited for open hardware
- - It implementation is highly reconfigurable allowing to be resized to meet 
+ - It is licensed under the [CERN Open Hardware Licence Version 2](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2)
+   which is suited for open hardware
+ - It's implementation is highly reconfigurable allowing to be resized to meet
    target size and performance requirements.
- - It has 
+ - It has
    [docs](https://github.com/openrisc/mor1kx/blob/master/doc/mor1kx.asciidoc) 
-   that explain even more
+   that explain the overall design.
 
 In 2014 the author, Julius Baxter, gave the following presentation about mor1kx
 which goes into detail about the motivation for the processor rewrite and
@@ -60,6 +60,28 @@ To build a system with mor1kx have a look at the some of the hardware
 [tutorials]({{BASE_PATH}}/tutorials.html) or have a look at some of the 
 systems available in [orpsoc-cores](https://github.com/openrisc/orpsoc-cores)
 which can be built with [FuseSoC]({{BASE_PATH}}/soc.html#fusesoc).
+
+### <a id="marocchino" /> marocchino
+
+The marocchino OpenRISC implementation also has the advanced features of
+the mor1kx.  The marocchino then expands on this with more advanced features:
+
+ - A 64-bit FPU implementing OpenRISC's ORFPX64A32 extension.
+ - It implements an Out-of-order pipeline which helps to avoid pipeline stall's
+   providing higher execution performance.
+
+The source code can be found on github at
+[openrisc/or1k_marocchino](https://github.com/openrisc/or1k_marocchino)
+
+Stafford Horne has written a few blog articles on how to use marocchino and it's
+design.  Check them out:
+
+ - [Marocchino in Action](http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/06/11/or1k_marocchino.html) -
+   how to boot up the marocchino processor.
+ - [Marocchino Pipeline](http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/07/18/or1k_marocchino_instruction_pipeline.html) -
+   an overview of the marocchino architecture.
+ - [Marocchino a Tomasulo Implementation](http://stffrdhrn.github.io/hardware/embedded/openrisc/2019/10/21/or1k_marocchino_tomasulo.html) -
+   a deep dive into the marocchino Tomasulo algorithm implementation.
 
 ## System Simulators
 

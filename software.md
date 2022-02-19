@@ -114,6 +114,13 @@ easily compile more applications for it compared to musl.
 
 You can download and build the source downloading from the uClibc-ng website.
 
+### <a id="litex" /> GNU C Library (glibc) Toolchain
+
+The [glibc toolchain](https://www.gnu.org/software/libc/) is available for OpenRISC
+since version 2.35.  This toolchain provides a fully featured C system API including
+internationalization, 64-bit time and filesystem support.
+
+You can download and build the source downloading from the glibc website.
 
 ## Operating Systems
 
