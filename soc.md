@@ -55,9 +55,9 @@ Xilinx ISE and Altera Quartus.
 
 ### Description
 
-Also built on Migec, The LiteX framework provides a convenient and efficient
-infrastructure to create FPGA Cores/SoCs, to explore various digital design
-architectures and create full FPGA based systems.
+Like MiSoC below also built on Migen, the LiteX framework provides a convenient
+and efficient infrastructure to create FPGA Cores/SoCs, to explore various
+digital design architectures and create full FPGA based systems.
 
 ### Links
 
