@@ -1,7 +1,7 @@
 ---
 layout: proposal
 title: Tininess Before Rounding (P18)
-category: draft
+category: r1.4
 date: 2021-10-09 03:49
 author: Stafford Horne
 ---
