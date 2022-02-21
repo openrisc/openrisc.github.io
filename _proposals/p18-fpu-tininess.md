@@ -7,13 +7,13 @@ author: Stafford Horne
 ---
 
 The IEEE standard allows specifying how detecting of tininess occurs.  Tininess
-detection is how underflow exceptions are triggered.  There are two allows two method
+detection is how underflow exceptions are triggered.  There are two allowed methods
 for detecting tininess one is *before rounding* and the other being *after rounding*.
 
-All FPU operations in an implementation be consistent in how this is implemented to be
-compliant.
+All FPU operations in an implementation must be consistent in how this is
+implemented to be compliant.
 
-As BAndViG has already update the implementations on Mor1kx and Marocchino to match
+As BAndViG has already updated the implementations on Mor1kx and Marocchino to match
 the *before rounding* behavior; we propose that OpenRISC specifies:
 
   1. Tininess to be detected *before rounding*
