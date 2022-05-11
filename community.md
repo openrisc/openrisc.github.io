@@ -16,8 +16,8 @@ either just a mail to
 or [subscribe][mailing list] to the list to receive all mails on the
 list.
 
-The OpenRISC mailing list is also available on [lore.kernel.lorg][].  This
-provides a clean fast interface including a git interface and atom feed for the
+The OpenRISC mailing list is also available on [lore.kernel.lorg](https://lore.kernel.org/openrisc/).
+This provides a clean fast interface including a git interface and atom feed for the
 list.
 
 # IRC
@@ -41,7 +41,6 @@ ask to receive notifications of new messages, by going to “My Account”
 A number of [other forums][] address other OpenCores projects (the
 Ethernet MAC, PCI, USB etc).
 
-  [OpenRISC forum]: http://opencores.org/forum,OpenRISC
-  [mailing list]: http://lists.librecores.org/listinfo/OpenRISC
-  [other forums]: http://opencores.org/forum
-  [lore.kernel.org]: https://lore.kernel.org/openrisc/
+  [OpenRISC forum]: https://opencores.org/forum,OpenRISC
+  [mailing list]: https://lists.librecores.org/listinfo/OpenRISC
+  [other forums]: https://opencores.org/forum
