@@ -65,8 +65,8 @@ The revision process is:
  - Create a new proposal by copying the [proposal template](/proposals/template) in the
    in the [openrisc.io](https://github.com/openrisc/openrisc.github.io) project and making
    a pull request.
- - Send mail to the <openrisc@lists.librecores.org> mailing list for discussion
- - Once a critical mass of proposals are made we will discuss the final cut of changes
+ - Send a mail to the <linux-openrisc@vger.kernel.org> mailing list for discussion.
+ - Once a critical mass of proposals are made we will discuss the final cut of changes.
  - Once the final proposals are decided a volunteer will update the `odt` and `pdf`
    [docs](https://github.com/openrisc/doc) and post back to this Specification
    page with a new revision.

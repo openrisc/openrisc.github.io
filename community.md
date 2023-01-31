@@ -12,7 +12,7 @@ weight: 8
 The OpenRISC [mailing list][] where you can ask your questions around
 OpenRISC or get into the discussion with the developers. You can
 either just a mail to
-[openrisc@lists.librecores.org](mailto:openrisc@lists.librecores.org)
+[linux-openrisc@vger.kernel.org](mailto:linux-openrisc@vger.kernel.org)
 or [subscribe][mailing list] to the list to receive all mails on the
 list.
 
@@ -42,5 +42,5 @@ A number of [other forums][] address other OpenCores projects (the
 Ethernet MAC, PCI, USB etc).
 
   [OpenRISC forum]: https://opencores.org/forum,OpenRISC
-  [mailing list]: https://lists.librecores.org/listinfo/OpenRISC
+  [mailing list]: http://vger.kernel.org/vger-lists.html#linux-openrisc
   [other forums]: https://opencores.org/forum
