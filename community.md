@@ -9,7 +9,7 @@ weight: 8
 
 # Mailing lists
 
-The OpenRISC [mailing list][] where you can ask your questions around
+The OpenRISC [mailing list][] is where you can ask your questions around
 OpenRISC or get into the discussion with the developers. You can
 either just send a mail to
 [linux-openrisc@vger.kernel.org](mailto:linux-openrisc@vger.kernel.org)
