@@ -11,11 +11,14 @@ For building your own software, OpenRISC is supported by a 32-bit GNU
 toolchain offering C and C++ support. The toolchain is available in
 several forms, depending on your use case:
 
-* [or1k-elf](#mewlib-toolchain) for bare metal use, based on the
+* [or1k-elf](#newlib-toolchain) for bare metal use, based on the
   newlib library.
 
 * [or1k-linux-uclibc](#uclibc-ng-toolchain) for [Linux](#linux) application use, based on the
   uClibc-ng library.
+
+* [or1k-linux-gnu](#glibc-toolchain) for [Linux](#linux) application use, based on the
+  GNU libc library.
 
 * [or1k-linux-musl](#musl-toolchain) also for [Linux](#linux) application
   use, based on the musl library. (recommended over uClibc)
@@ -60,11 +63,13 @@ Some basic tools form an actual toolchain:
   (`or1k`). Beside this a development
   [repository](https://github.com/openrisc/binutils-gdb) is used to
   test new features before submitting it to the binutils project.
+  The latest stable releases can be found on the GNU binutils website.
 
 * [GCC](https://gcc.gnu.org): GCC is the compiler that translates
   C/C++ to programs or libraries. The GCC project has support for
   OpenRISC `or1k`.  Historical development, binaries and experimental
   features are available in our development [repository](https://github.com/openrisc/or1k-gcc).
+  The latest stable releases can be found on the GNU GCC website.
 
 * [GDB](https://www.gnu.org/s/gdb/): The debugger is used to find and
   fix bugs in programs running on the target platform. The gdb distribution
@@ -72,6 +77,7 @@ Some basic tools form an actual toolchain:
   [repository](https://github.com/openrisc/binutils-gdb) is used to test
   new features and share with the community before submitting to the upstream
   gdb project.
+  The latest stable releases can be found on the GNU GDB website.
 
 ### Newlib Toolchain
 
@@ -90,7 +96,7 @@ handling, timers and other peripherals. The latest releases and
 documentation can be found on the
 [or1k-elf newlib website](http://openrisc.github.io/newlib).
 
-You can download prebuilt toolchains [here](https://github.com/openrisc/or1k-gcc/releases)
+You can download prebuilt toolchains [here](https://github.com/stffrdhrn/or1k-toolchain-build/releases)
 or build it yourself following
 [these instructions](https://openrisc.io/newlib/building.html).
 
@@ -101,9 +107,13 @@ for building programs that should run on Linux. The exceptions to this is
 software that depend on extensions only found in glibc. For example,
 building Debian requires glibc.
 
-You can download prebuilt toolchains [here](https://github.com/openrisc/or1k-gcc/releases)
+You can download prebuilt toolchains [here](https://github.com/stffrdhrn/or1k-toolchain-build/releases)
 or build it yourself following
 [these instructions](https://github.com/openrisc/musl-cross/wiki).
+
+Also, the team that creates [buildroot](https://buildroot.org) provide
+[bootlin cross-compiler toolchains](https://toolchains.bootlin.com).  These
+offer both stable and bleeding edge musl versions.
 
 ### uClibc-ng Toolchain
 
@@ -112,15 +122,25 @@ project which also is for building programs that should run on Linux.  It has
 good support for OpenRISC and is more compatible with glibc, meaning you can
 easily compile more applications for it compared to musl.
 
-You can download and build the source downloading from the uClibc-ng website.
+You can download prebuilt toolchains [here](https://github.com/stffrdhrn/or1k-toolchain-build/releases).
+Or you can download and build the source downloading from the uClibc-ng website.
 
-### <a id="glibc" /> GNU C Library (glibc) Toolchain
+Also, the team that creates [buildroot](https://buildroot.org) provide
+[bootlin cross-compiler toolchains](https://toolchains.bootlin.com).  These
+offer both stable and bleeding edge uClibc-ng versions.
+
+### <a id="glibc-toolchain" /> GNU C Library (glibc) Toolchain
 
 The [glibc toolchain](https://www.gnu.org/software/libc/) is available for OpenRISC
 since version 2.35.  This toolchain provides a fully featured C system API including
 internationalization, 64-bit time and filesystem support.
 
+You can download prebuilt toolchains [here](https://github.com/stffrdhrn/or1k-toolchain-build/releases).
 You can download and build the source downloading from the glibc website.
+
+Also, the team that creates [buildroot](https://buildroot.org) provide
+[bootlin cross-compiler toolchains](https://toolchains.bootlin.com).  These
+offer both stable and bleeding edge GNU libc versions.
 
 ## Operating Systems
 
@@ -150,7 +170,8 @@ and packaging multiple applications for your embedded project.  This means inste
 of you having to go and download tarballs and run `./configure && make && make install`
 and chase down build failures you have an nice tool to do it all for you.
 
-Buildroot supports building and packaging applications for Linux using uClibc-ng.
+Buildroot supports building and packaging applications for Linux using
+uClibc-ng, musl and the GNU C Library (glibc).
 
 ### OpenADK
 
