@@ -109,7 +109,7 @@ building Debian requires glibc.
 
 You can download prebuilt toolchains [here](https://github.com/stffrdhrn/or1k-toolchain-build/releases)
 or build it yourself following
-[these instructions](https://github.com/openrisc/musl-cross/wiki).
+[these instructions](https://github.com/richfelker/musl-cross-make).
 
 Also, the team that creates [buildroot](https://buildroot.org) provide
 [bootlin cross-compiler toolchains](https://toolchains.bootlin.com).  These
@@ -123,7 +123,8 @@ good support for OpenRISC and is more compatible with glibc, meaning you can
 easily compile more applications for it compared to musl.
 
 You can download prebuilt toolchains [here](https://github.com/stffrdhrn/or1k-toolchain-build/releases).
-Or you can download and build the source downloading from the uClibc-ng website.
+Or you can download and build it yourself following
+[these instructions](https://uclibc-ng.org/docs/).
 
 Also, the team that creates [buildroot](https://buildroot.org) provide
 [bootlin cross-compiler toolchains](https://toolchains.bootlin.com).  These
@@ -136,7 +137,9 @@ since version 2.35.  This toolchain provides a fully featured C system API inclu
 internationalization, 64-bit time and filesystem support.
 
 You can download prebuilt toolchains [here](https://github.com/stffrdhrn/or1k-toolchain-build/releases).
-You can download and build the source downloading from the glibc website.
+You can download and build it yourself following
+[these instructions](https://github.com/jueve/build-glibc).
+
 
 Also, the team that creates [buildroot](https://buildroot.org) provide
 [bootlin cross-compiler toolchains](https://toolchains.bootlin.com).  These
