@@ -14,8 +14,8 @@ compiler and software binaries from upstream stable releases.
 You can access them via links on our [software](http://openrisc.io/software) page.
 Or easily access them here:
 
- [Toolchain releases](https://github.com/stffrdhrn/or1k-toolchain-build/releases) - For binaries of newlib, glibc and musl toolchains.
- [Linux rootfs releases](https://github.com/stffrdhrn/or1k-rootfs-build/releases) - For rootfs images of busybox and buildroot
+ * [Toolchain releases](https://github.com/stffrdhrn/or1k-toolchain-build/releases) - For binaries of newlib, glibc and musl toolchains.
+ * [Linux rootfs releases](https://github.com/stffrdhrn/or1k-rootfs-build/releases) - For rootfs images of busybox and buildroot
 
 Have a look at the readme documentation in [or1k-utils](https://github.com/stffrdhrn/or1k-utils/tree/master) for pointers on
 how the rootfs images are be used.  We are working on some comprehensive tutorials to also help bring this all together.
