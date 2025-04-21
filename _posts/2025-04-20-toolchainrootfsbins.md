@@ -38,7 +38,7 @@ The current rootfs images available are build with:
 In the past we hosted toolchain binaries in different spots such as `openrisc/newlib`
 or `oppenrisc/gcc-or1k`.  These were using development patches that have since all been
 merged upstream.  Now, that all of our software is upstream we can release as stable
-upstream binaries are released.
+upstream releases are announced.
 
 You can also check out the [bootlin cross-compiler toolchains](https://toolchains.bootlin.com)
 for recent toolchains built with the buildroot build system.  They provide
