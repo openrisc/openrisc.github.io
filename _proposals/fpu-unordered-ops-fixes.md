@@ -3,7 +3,7 @@ layout: proposal
 title: ORFPX32/ORFPX64 Comparison Corrections (P19)
 category: draft
 date: 2025-03-19
-author: "Stafford Horne <shorne@gmaol.com>"
+author: "Stafford Horne <shorne@gmail.com>"
 ---
 {% include JB/setup %}
 
