@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Implementations
-tagline: 
+tagline:
 group: navigation
 weight: 3
 ---
@@ -28,7 +28,7 @@ processor cores.
 
 OR1200 is the original implementation of the OpenRISC 1000 architecture.
 
-The source code can be found on github at 
+The source code can be found on github at
 [openrisc/or1200](https://github.com/openrisc/or1200).
 
 ### <a id="mor1kx" /> mor1kx
@@ -46,18 +46,18 @@ but it has its advantages.
  - It's implementation is highly reconfigurable allowing to be resized to meet
    target size and performance requirements.
  - It has
-   [docs](https://github.com/openrisc/mor1kx/blob/master/doc/mor1kx.asciidoc) 
+   [docs](https://github.com/openrisc/mor1kx/blob/master/doc/mor1kx.asciidoc)
    that explain the overall design.
 
 In 2014 the author, Julius Baxter, gave the following presentation about mor1kx
 which goes into detail about the motivation for the processor rewrite and
 architecture.
 
-The source code can be found on github at 
+The source code can be found on github at
 [openrisc/mor1kx](https://github.com/openrisc/mor1kx)
 
 To build a system with mor1kx have a look at the some of the hardware
-[tutorials]({{BASE_PATH}}/tutorials.html) or have a look at some of the 
+[tutorials]({{BASE_PATH}}/tutorials/) or have a look at some of the
 systems available in [orpsoc-cores](https://github.com/openrisc/orpsoc-cores)
 which can be built with [FuseSoC]({{BASE_PATH}}/soc.html#fusesoc).
 
@@ -87,12 +87,13 @@ design.  Check them out:
 
 ### <a id="or1ksim" /> or1ksim
 
-Or1ksim is a generic OpenRISC 1000 architecture simulator capable of emulating OpenRISC 
-based computer systems at the instruction level. It includes models of a range of 
+Or1ksim is a generic OpenRISC 1000 architecture simulator capable of emulating OpenRISC
+based computer systems at the instruction level. It includes models of a range of
 peripherals, allowing complete systems to be modeled.
 
 #### Links
    * [openrisc/or1ksim](https://github.com/openrisc/or1ksim) - github repo
+   * [p[enrisc/or1ksim/releases](https://github.com/openrisc/or1ksim/releases) - binary releases
 
 ### <a id="qemu" /> qemu
 

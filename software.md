@@ -152,7 +152,7 @@ offer both stable and bleeding edge GNU libc versions.
 The [Linux](http://kernel.org) operating system should need no introduction. The
 support for OpenRISC is stable.
 
-See our tutorials on [compiling and running Linux](https://github.com/openrisc/tutorials/blob/master/docs/Linux.md)
+See our tutorials on [compiling and running Linux](/tutorials/docs/Linux.html)
 on OpenRISC.
 
 ### RTEMS
