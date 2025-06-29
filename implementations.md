@@ -56,10 +56,8 @@ architecture.
 The source code can be found on github at
 [openrisc/mor1kx](https://github.com/openrisc/mor1kx)
 
-To build a system with mor1kx have a look at the some of the hardware
-[tutorials]({{BASE_PATH}}/tutorials/) or have a look at some of the
-systems available in [orpsoc-cores](https://github.com/openrisc/orpsoc-cores)
-which can be built with [FuseSoC]({{BASE_PATH}}/soc.html#fusesoc).
+To build a system with mor1kx have a look at some of the hardware platform
+[tutorials]({{BASE_PATH}}/tutorials/).
 
 ### <a id="marocchino" /> marocchino
 
