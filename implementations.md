@@ -93,7 +93,7 @@ peripherals, allowing complete systems to be modeled.
 
 #### Links
    * [openrisc/or1ksim](https://github.com/openrisc/or1ksim) - github repo
-   * [p[enrisc/or1ksim/releases](https://github.com/openrisc/or1ksim/releases) - binary releases
+   * [openrisc/or1ksim/releases](https://github.com/openrisc/or1ksim/releases) - binary releases
 
 ### <a id="qemu" /> qemu
 
