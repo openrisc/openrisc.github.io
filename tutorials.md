@@ -7,11 +7,28 @@ weight: 7
 ---
 {% include JB/setup %}
 
-This section contains guides and information found around the web that help
-OpenRISC users to get started more easily.
+## Official OpenRISC Tutorials
 
--   [Building a newlib toolchain](https://openrisc.io/newlib/building.html)
-    which includes `or1k-elf-gcc` and `or1k-elf-gdb`.
+The OpenRISC tutorials aim to be a comprehensive guide to getting started with
+an up-to-date development environment.
+
+ - [Tutorials Home](/tutorials/index.html) - covers:
+   - Quickstart with Docker Images
+   - Toolchains - acquiring, building
+   - Platforms - loading, running and debugging programs on:
+     - Simulators
+     - FuseSoC
+     - Litex
+   - Linux - running Linux and applications on:
+     - Simulators
+     - FuseSoC
+     - Litex
+
+## Around the Web
+
+This section contains guides and information found around the web that help
+OpenRISC users to get started more easily.  These have been put together by the
+community.
 
 Material for beginners to soft cores on FPGA:
 
@@ -36,10 +53,6 @@ Wetenschap & Kunst, Campus de Nayer
 
 -   Altera HW tutorial [PDF][].
 -   Xilinx HW tutorial [PDF][1].
-
-Tutorials on how to implement OR1200 on Xilinx Spartan-6 FPGA.
-
--   OpenRISC implemented on the Digilent Atlys board [blog on OpenRISC for newbies][]
 
 Tutorials on how to implement OR1200 on Xilinx and Altera FPGAs using
 MinSoC.
