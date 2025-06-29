@@ -1,7 +1,11 @@
 ---
 layout: page
-title: Further Reading
+title: Tutorials
+tagline: Get started
+group: navigation
+weight: 7
 ---
+{% include JB/setup %}
 
 This section contains guides and information found around the web that help
 OpenRISC users to get started more easily.
@@ -56,8 +60,8 @@ Framework][]
   [Embecosm Application Note 2]: https://www.embecosm.com/appnotes/ean2/html/index.html
   [Embecosm Application Note 1]: https://www.embecosm.com/appnotes/ean1/html/index.html
   [Resarch Group Digital Techniques]: https://web.archive.org/web/20161029074149/http://emsys.denayer.wenk.be/
-  [PDF]: docs/openrisc-HW-tutorial-Altera.pdf
-  [1]: docs/openrisc-HW-tutorial-Xilinx.pdf
+  [PDF]: /tutorials/docs/openrisc-HW-tutorial-Altera.pdf
+  [1]: /tutorials/docs/openrisc-HW-tutorial-Xilinx.pdf
   [3]: https://web.archive.org/web/20170331103546/http://www.minsoc.com/1_0:start
   [Writing an application program]: https://web.archive.org/web/20160706154031/http://www.rte.se/blog/blogg-modesty-corex/writing-application-program
   [Proteus Framework]: https://web.archive.org/web/20151023123112/http://proteus-project.org/
