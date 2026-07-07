@@ -94,7 +94,7 @@ Beside the basic C library functionality, the `libgloss` port for
 OpenRISC defines some helper functions for exception and interrupt
 handling, timers and other peripherals. The latest releases and
 documentation can be found on the
-[or1k-elf newlib website](http://openrisc.github.io/newlib).
+[or1k-elf newlib website](https://openrisc.io/newlib).
 
 You can download prebuilt toolchains [here](https://github.com/stffrdhrn/or1k-toolchain-build/releases)
 or build it yourself following
