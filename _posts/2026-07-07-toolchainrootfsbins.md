@@ -8,8 +8,7 @@ author: Stafford Horne
 ---
 {% include JB/setup %}
 
-Again, we have created a new toolchain and rootfs build processes to deliver
-compiler and software binaries from upstream stable releases.
+Again, we have created new toolchains and rootfs binaries from upstream stable releases.
 
 You can access them via links on our [software](http://openrisc.io/software) page.
 Or easily access them here:
